@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Roboto";
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+:root {
+  font-family: "Roboto";
+  --block-width: 10.6rem;
+  --block-height: 10.5rem;
+  --bg-block: #e8e5df;
+  --color-font-material: #09554c;
+  --color-font: #333333;
+}
+html{
+  font-size:19px;
+}
+h3 {
+  margin: 2rem 0 3rem 0;
+  font-size:1.9rem;
+}
+/* container 01 */
+.block {
+  width: var(--block-width);
+  height: var(--block-height);
+  background-color: var(--bg-block);
+  border-radius: 18px;
+  position: relative;
+  
+}
+.product {
+  width: 4.25rem;
+  height: 2.16rem;
+  background-color: #00a896;
+  border-radius: 9px;
+  margin: 20px 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product small {
+  font-size: 8px;
+  font-weight: ligth;
+  color: var(--color-font-material);
+  display:flex;
+  justify-content:center;
+}
+a{
+  text-decoration:none;
+  cursor:pointer;
+}
+.block p {
+  position: absolute;
+  margin: 33% 15%;
+}
+.block i {
+  position: absolute;
+  margin: 12% 80%;
+  cursor:pointer;
+}
+.information{
+  display:none;
+}
+.block i:hover .information{
+ display:block;
+ margin-left:-25px;
+}
+/* container 02 */
+.container02{
+  margin-top: 10%;
+}
+.instagram-modern{
+  margin-top:2rem;
+}
+.instagram-modern a{
+  color:#232323;
+  text-decoration:none;
+  font-size:10px;
+}
+

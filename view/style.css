@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width:100%;
+  max-width:310px;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  margin:5% auto;
+}
+.header{
+  width:100%;
+  display:flex;
+  margin:1rem 0 2.8rem ;
+}
+.logo{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background:#E8E5DF;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-right:.5rem
+}
+.header small{
+  font-weight: ligth;
+  font-size:10px;
+  margin-top:-5px
+}
+.container{
+  width:100%;
+}
+.container input{
+  width:145px;
+  height:63px;
+  border-radius:10px;
+  background-color:#E8E5DF;
+  text-align:center;
+  border:0;
+  outline:none;
+}
+.container input:hover{
+  outline: 2px solid #00A896;
+}
+.container input:first-child {
+  margin-right:.5rem;
+}
+button{
+  /* margin:1.4rem 2.1rem 3rem 0; */
+  margin:1.4rem 0;
+  width:100%;
+  max-width:300px;
+  height:63px;
+  background-color:#00A896;
+  border-radius:10px;
+  border:0;
+}
+.results{
+  width:100%;
+}
+.results p:first-child{
+  margin:0 0 26px ;
+  font-weight:light;
+}
+.results .content{
+  max-width:298px;
+  height:60px;
+  background-color:#E8E5DF;
+  display:flex;
+  align-items:center;
+  position:relative;
+  border-radius: 0 10px 10px 0;
+  margin-bottom:34px;
+}
+.results .content span{
+  width: 10px;
+  height:60px;
+  background-color:#00A896;
+  position:absolute;
+  margin:0;
+}
+.results .content p{
+  width:90px;
+  margin-left:20px;
+}
+.level{
+  display:flex;
+  flex-direction:column;
+  margin-left:54%;
+}
+.level small{
+  font-size:10px;
+  margin:2px 0 10px
+}
+
+.helpuser{
+  color:#ff5522;
+  margin-bottom:1rem;
+}
+.return{
+  height:25px;
+  display:flex;
+  align-items:center
+}
+.return span{
+  align-self:flex-start;
+}
+.return iconify-icon{
+  font-size:26px;
+}
+.return a{
+  text-decoration:none;
+  color:#232323;
+}
+@media(max-width:325px) {
+  body{
+    margin-left:8%
+  }
+  .container input{
+    width:270px;
+    margin:10px 0;
+  }
+  .header{
+  width:100%;
+  display:flex;
+  margin:1.5rem 0;
+}
+.content{
+  margin:-15px -12px;
+}
+button{
+  width:270px;
+}
+}

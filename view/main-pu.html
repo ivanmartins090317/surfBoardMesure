@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>surfMeasure</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">M</div>
+      <div>
+        <h3>surfMeasure</h3>
+        <small>Modern developer</small>
+      </div>
+    </div>
+    <form>
+      <div class="container">
+        <input
+          class="peso"
+          type="text"
+          name="peso"
+          placeholder="Peso/kg-ex:73"
+          autofocus
+        />
+        <input 
+          class="altura" 
+          type="text" 
+          name="altura" 
+          placeholder="Altura/cm-ex:175" />
+      </div>
+    </form>
+    <button class="calcular">Calcular</button>
+    <div class="results">
+      <p>Resultados poliuretano</p>
+      <div class="content">
+        <span></span>
+        <p class="levelBegin">Iniciante</p>
+        <div class="level">
+          <small>Nìvel</small>
+          <iconify-icon icon="carbon:skill-level"></iconify-icon>
+        </div>
+      </div>
+      <div class="content">
+        <span></span>
+        <p class="levelMedium">Intermediario</p>
+        <div class="level">
+          <small>Nìvel</small>
+          <iconify-icon icon="carbon:skill-level-intermediate"></iconify-icon>
+        </div>
+      </div>
+      <div class="content">
+        <span></span>
+        <p class="levelAdvanced">Avançado</p>
+        <div class="level">
+          <small>Nìvel</small>
+          <iconify-icon icon="carbon:skill-level-advanced"></iconify-icon>
+        </div>
+      </div>
+    </div>
+    <div class="return">
+    <a href="../index.html">
+      <iconify-icon icon="openmoji:return"></iconify-icon>
+      </a>
+      <span>Voltar</span>
+    </div>
+
+    <script src="script-pu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  </body>
+</html>
