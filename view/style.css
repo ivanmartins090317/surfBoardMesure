@@ -5,6 +5,9 @@
   -webkit-font-smoothing: antialised;
   -moz-osx-font-smoothing: grayscale;
 }
+input, textarea, select {
+  font-size: 16px; /* Tamanho de fonte mínimo */
+}
 
 body {
   width:100%;
@@ -46,8 +49,9 @@ body {
   border:0;
   outline:none;
 }
+
 .container input:hover{
-  outline: 2px solid #00A896;
+  outline: 2px solid rgb(161, 255, 246);
 }
 .container input:first-child {
   margin-right:.5rem;
