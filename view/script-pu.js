@@ -32,7 +32,7 @@ const userHelpElement = () => {
 }
 
  const valueLevelBegin = {
-   isLevel: 0.45,
+   isLevel: 0.43,
    previusElement: levelBegin,
  };
  const valueLevelMedium = {
